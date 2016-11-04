@@ -3,7 +3,7 @@
 void StateMach::Main_State(){
 
     this->_myServo.CloseWindow();
-
+    this->_dht.baud(9600);
     this->_climbingMode = true;
 
     // Loop de execucao dos modos
