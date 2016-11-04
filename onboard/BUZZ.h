@@ -1,13 +1,5 @@
-//
-//  BUZZ.hpp
-//  testec ARDUINO
-//
-//  Created by Danilo Oliveira on 11/10/16.
-//  Copyright © 2016 Danilo Oliveira. All rights reserved.
-//
-
-#ifndef BUZZ_hpp
-#define BUZZ_hpp
+#ifndef BUZZ_h
+#define BUZZ_h
 
 #include <stdio.h>
 #include <Arduino.h>
@@ -31,4 +23,4 @@ private:
 };
 
 
-#endif /* BUZZ_hpp */
+#endif
